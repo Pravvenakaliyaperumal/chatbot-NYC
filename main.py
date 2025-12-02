@@ -24,7 +24,7 @@ anthropic_client = AnthropicVertex(region=REGION, project_id=PROJECT_ID)
 
 # Cloud Logging
 logging_client = cloud_logging.Client()
-logger = logging_client.logger("cv-claude-opus")
+logger = logging_client.logger("cv-claude-opus")   #logger
 
 # ---------------- Helpers ----------------
 def generate_prompt(user_input: str) -> str:
