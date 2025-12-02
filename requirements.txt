@@ -7,3 +7,4 @@ google-cloud-logging>=3.10.0
 selectolax
 lxml
 anthropic[vertex]>=0.32.0
+genai
